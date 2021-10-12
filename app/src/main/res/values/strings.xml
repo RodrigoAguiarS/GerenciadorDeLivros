@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">GerenciadorDeLivros</string>
+    <string name="editora_do_livro">Editora do Livro</string>
+    <string name="autor_do_livro">Autor do Livro</string>
+    <string name="t_tulo_do_livro">Título do Livro</string>
 </resources>
