@@ -1,4 +1,6 @@
-package com.rodrigo.gerenciadordelivros;
+package com.rodrigo.gerenciadordelivros.views;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,11 +8,9 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.example.gerenciadordelivros.R;
-import com.example.gerenciadordelivros.data.LivroDAO;
-import com.example.gerenciadordelivros.dominio.Livro;
+import com.rodrigo.gerenciadordelivros.R;
+import com.rodrigo.gerenciadordelivros.data.LivroDAO;
+import com.rodrigo.gerenciadordelivros.dominio.Livro;
 
 public class EditarLivroActivity extends AppCompatActivity {
 

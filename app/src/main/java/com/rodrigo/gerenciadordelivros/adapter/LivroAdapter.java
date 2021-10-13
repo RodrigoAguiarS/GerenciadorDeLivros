@@ -7,11 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
+import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
+import java.util.List;
 import com.rodrigo.gerenciadordelivros.R;
+import com.rodrigo.gerenciadordelivros.dominio.Livro;
 
 public class LivroAdapter extends RecyclerView.Adapter<LivroAdapter.LivroHolder> {
     private List<Livro> livros;
@@ -42,7 +43,7 @@ public class LivroAdapter extends RecyclerView.Adapter<LivroAdapter.LivroHolder>
             holder.ic_livro.setColorFilter(Color.GRAY);
             holder.ic_star.setVisibility(View.VISIBLE);
         }else {
-            holder.ic_livro.setColorFilter(Color.parseColor("#0455BF"));
+            holder.ic_livro.setColorFilter(Color.parseColor("#9DA65D"));
             holder.ic_star.setVisibility(View.INVISIBLE);
 
         }

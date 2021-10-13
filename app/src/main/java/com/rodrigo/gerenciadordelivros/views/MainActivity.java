@@ -1,6 +1,5 @@
-package com.rodrigo.gerenciadordelivros;
+package com.rodrigo.gerenciadordelivros.views;
 
-mport androidx.annotation.NonNull;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,11 +12,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.example.gerenciadordelivros.R;
-import com.example.gerenciadordelivros.adapter.LivroAdapter;
-import com.example.gerenciadordelivros.data.LivroDAO;
-import com.example.gerenciadordelivros.dialogs.DeleteDialog;
-import com.example.gerenciadordelivros.dominio.Livro;
+import com.rodrigo.gerenciadordelivros.R;
+import com.rodrigo.gerenciadordelivros.adapter.LivroAdapter;
+import com.rodrigo.gerenciadordelivros.data.LivroDAO;
+import com.rodrigo.gerenciadordelivros.dialogs.DeleteDialog;
+import com.rodrigo.gerenciadordelivros.dominio.Livro;
 
 import java.util.ArrayList;
 import java.util.List;

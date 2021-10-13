@@ -3,4 +3,12 @@
     <string name="editora_do_livro">Editora do Livro</string>
     <string name="autor_do_livro">Autor do Livro</string>
     <string name="t_tulo_do_livro">Título do Livro</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="sair">Sair</string>
+    <string name="t_tulo">Título</string>
+    <string name="autor">Autor</string>
+    <string name="editora">Editora</string>
+    <string name="emprestado">Emprestado?</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="ok">OK</string>
 </resources>
